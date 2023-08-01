@@ -6,7 +6,7 @@ import FooterButton from "./FooterButton";
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <footer className="flex flex-col bg-black absolute bottom-0 w-[100%] justify-center items-center p-5">
+    <footer className="flex flex-col bg-black w-[100%] justify-center items-center p-10">
       <div className="font-my-font text-white text-md">
         <CopyrightIcon fontSize="medium" /> Redland Immigration {year}
       </div>

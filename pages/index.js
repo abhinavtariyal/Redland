@@ -1,4 +1,4 @@
-import HomePage from "./HomePage/index.js";
+import HomePage from "./home/index.js";
 const Home = () => {
   return <HomePage />;
 };

@@ -34,9 +34,10 @@ export function TestimonialCard(props) {
       >
         <Avatar
           size="lg"
-          variant="circular"
           src={props.personData.image}
           alt={props.personData.name}
+          variant="circular"
+          className="object-cover"
         />
         <div className="flex w-full flex-col gap-0.5">
           <div className="flex items-center justify-between">
