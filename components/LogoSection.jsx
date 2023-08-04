@@ -1,6 +1,13 @@
 import { Typography } from "@material-tailwind/react";
 
-const logos = [{title:'mma',img:'/mma.png'}, {title:'mia',img:'/MIA.png'}, {title:'qeac',img:'/Qeac.jpeg'}];
+const logos = [
+  { title: "mma", img: "/mma.png" },
+  { title: "mia", img: "/MIA.png" },
+  { title: "qeac", img: "/qeac.png" },
+  { title: "pier", img: "/PIER.png" },
+  { title: "marn", img: "/marn.jpeg" },
+  { title: "icef", img: "/icef.png" },
+];
 
 export function LogoSectionTwo() {
   return (
@@ -14,17 +21,12 @@ export function LogoSectionTwo() {
             Trusted by over 2000+ <br /> clients
           </Typography>
           <Typography className="mb-10 font-normal !text-gray-500">
-            We are proud members of MARN, MMA, QEAC and MIA.
+            We are proud members of MARN, MMA, QEAC and MIA and ICEF.
           </Typography>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-6">
           {logos.map((logo, key) => (
-            <img
-              key={key}
-              src={logo.img}
-              alt="logo"
-              className="w-40"
-            />
+            <img key={key} src={logo.img} alt="logo" className="w-40" />
           ))}
         </div>
       </div>

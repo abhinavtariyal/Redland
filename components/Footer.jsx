@@ -13,16 +13,16 @@ const Footer = () => {
       <div className="flex justify-between flex-1 gap-[6vw] mt-3">
         <FooterButton
           link="https://www.facebook.com/redlandimmigration?mibextid=LQQJ4d"
-          icon={<BsFacebook size={28} color="white" className="hover:text-gray-300"/>}
+          icon={<BsFacebook size={36} color="white" className="hover:text-gray-300"/>}
         />
         <FooterButton
           link="https://www.instagram.com/redlandimmigration/"
           icon={
-            <FaTiktok size={28} color="white" className="hover:text-gray-300" />
+            <FaTiktok size={36} color="white" className="hover:text-gray-300" />
           }
         />
         <FooterButton link= "https://www.tiktok.com/@redlandimmigration?_t=8eM1ttoSRnO&_r=1" icon={<BsInstagram
-            size={28}
+            size={36}
             color="white"
             className="hover:text-gray-300"
           />}/>

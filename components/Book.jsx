@@ -71,7 +71,7 @@ export function ContactSectionTwo() {
       <img
         src="/contact.jpeg"
         alt="bg image"
-        className="hidden h-full min-h-screen w-full object-cover lg:block"
+        className="hidden h-[50%] min-h-[92vh] w-full object-cover lg:block -mt-20"
       />
     </section>
   );
