@@ -14,20 +14,22 @@ const Header = () => {
             quality={100}
             width={70}
             height={20}
-            className="rounded-full"
+            className="rounded-full object-cover"
             alt="RedlandImmigration"
           />
         </div>
         <div>
           <ul className="flex p-6 items-center font-my-font gap-[4vw] justify-between">
             <HeaderLink title="Home" link="/" />
-            <HeaderLink title="About Us" link="/about" />
             <HeaderLink title="Services" link="/services" />
-            <HeaderLink title="Contact" link="/contactPage" />
+            <HeaderLink title="About Us" link="/about" />
           </ul>
         </div>
         <div>
-          <button onClick = {() => router.push('/book')} className="rounded-full bg-[#c20000] px-5 py-2 font-my-font text-white font-normal hover:bg-[#c52d2d] hover:text-black">
+          <button
+            onClick={() => router.push("/book")}
+            className="rounded-full bg-[#c20000] px-5 py-2 font-my-font text-white font-normal hover:bg-[#c52d2d] hover:text-black"
+          >
             Book Now
           </button>
         </div>

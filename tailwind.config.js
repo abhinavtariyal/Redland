@@ -11,7 +11,6 @@ module.exports = withMT({
   ],
   theme: {
     extend: {
-      backgroundImage: {},
       fontFamily: {
         "my-font": ["Poppins"],
       },
