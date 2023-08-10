@@ -11,7 +11,7 @@ const logos = [
 
 export function LogoSectionTwo() {
   return (
-    <section className="py-8 px-8 lg:py-20 bg-blue-gray-50">
+    <section className="py-8 px-8 lg:py-20">
       <div className="container mx-auto grid items-center gap-8 lg:grid-cols-2">
         <div className="text-center lg:text-left">
           <Typography variant="h6" className="mb-4 uppercase !text-gray-500">

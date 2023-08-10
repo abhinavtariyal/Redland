@@ -5,14 +5,17 @@ import {
   Typography,
   Button,
 } from "@material-tailwind/react";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
-export function CardTwo({title}) {
+export function CardTwo({ title, content, image }) {
+  const router = useRouter();
   return (
     <section className="grid h-[40rem] place-items-center p-4">
       <Card className="w-auto max-w-[24rem]">
         <CardHeader color="gray" className="relative h-56">
           <img
-            src="https://images.unsplash.com/photo-1454496406107-dc34337da8d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2800&q=80"
+            src={image}
             alt="img-blur-shadow"
             className="h-full w-full object-cover"
           />
@@ -21,15 +24,15 @@ export function CardTwo({title}) {
           <Typography
             variant="h4"
             color="blue-gray"
-            className="mt-1 mb-2 font-medium"
+            className="mt-1 mb-2 font-my-font"
           >
-            Card Title
-          </Typography>
-          <Typography color="gray" className="mb-6 font-normal">
             {title}
           </Typography>
+          <Typography color="gray" className="mb-6 font-my-font">
+            {content}
+          </Typography>
           <Button variant="outlined" size="sm">
-            go somewhere
+            Know More
           </Button>
         </CardBody>
       </Card>

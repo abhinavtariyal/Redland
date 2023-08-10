@@ -29,13 +29,14 @@ export function ContentSectionOne() {
             Migrating to another country is a life changing decision. It’s
             important to get good results – At Redland Immigration you’ll find
             Immigration Consultants who : Are ethical, open and honest with
-            every client. Are qualified to interpret immigration laws and policy
-            and advise you. Are experienced and competent to be able to
-            communicate with the relevant immigration department, embassy and
-            visa officers on your behalf. Are frank and honest about your
+            every client. Are qualified to interpret immigration laws and
+            policyand advise you. Are experienced and competent to be able to
+            communicate with the relevant immigration department, embassy
+            andvisa officers on your behalf. Are frank and honest about your
             prospects of success even before you retain our services.
           </Typography>
-          <Button color="blue-gray" size="lg" variant="gradient">
+
+          <Button size="lg" variant="gradient" className="bg-[#c20000]">
             Read More
           </Button>
         </div>

@@ -1,9 +1,8 @@
 import { CardSection } from "@/components/CardSection";
 import { CarouselDefault } from "@/components/Carousel";
-import Footer from "@/components/Footer";
+import FooterThree from "@/components/Footer1";
 import LogoSectionTwo from "@/components/LogoSection";
 import HeroSec from "@/components/UI/HeroSec";
-import StatsSectionThree from "@/components/UI/stats";
 
 const HomePage = () => {
   return (
@@ -11,9 +10,9 @@ const HomePage = () => {
       <HeroSec />
       {/* <StatsSectionThree /> */}
       <LogoSectionTwo />
-      <CarouselDefault />
       <CardSection />
-      <Footer />
+      <CarouselDefault />
+      <FooterThree />
     </>
   );
 };
