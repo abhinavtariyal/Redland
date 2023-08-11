@@ -1,7 +1,8 @@
 import React from "react";
-import { UnderlineTabs } from "@/components/HeaderTry";
 const ServicesPage = () => {
-  return <div>Hello this is services section</div>;
+  return (
+    <div id="visa">Hello this is services section, this is visa section</div>
+  );
 };
 
 export default ServicesPage;

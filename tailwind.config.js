@@ -12,7 +12,7 @@ module.exports = withMT({
   theme: {
     extend: {
       fontFamily: {
-        "my-font": ["Poppins"],
+        "my-font": ["Montserrat"],
       },
     },
   },

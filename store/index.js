@@ -33,12 +33,17 @@ const initialState = {
         "Before contacting Naveen Sir,I met 2 or 3 more agents who mislead me badly. Naveen sir tried for atleast 3 months to get my admission in desirable course and finally he did that anyhow and it was only Naveen Sir who went extra mile to make sure my admission",
     },
   ],
+  activeTab:'home'
 };
 
 const reviewSlice = createSlice({
   name: "review",
   initialState,
-  reducers: {},
+  reducers: {
+    setActiveTab(state,action){
+    state.activeTab = action.payload;
+    }
+  },
 });
 
 const store = configureStore({

@@ -2,7 +2,7 @@ import { Typography, Button } from "@material-tailwind/react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { UnderlineTabs } from "./HeaderTry";
+import { UnderlineTabs } from "./NavBar";
 
 const Header = () => {
   const router = useRouter();
@@ -14,7 +14,7 @@ const Header = () => {
             <img src="/download.png" className="object-cover w-full h-full" />
           </Link>
         </div>
-        <div>
+        <div className="w-[30%]">
           <UnderlineTabs />
         </div>
         <div>

@@ -5,11 +5,13 @@ import {
   Typography,
   Button,
 } from "@material-tailwind/react";
-import Link from "next/link";
 import { useRouter } from "next/router";
+import { useDispatch } from "react-redux";
+import { reviewActions } from "@/store";
 
 export function CardTwo({ title, content, image }) {
   const router = useRouter();
+  const dispatch = useDispatch();
   return (
     <section className="grid h-[40rem] place-items-center p-4">
       <Card className="w-auto max-w-[24rem]">
@@ -31,7 +33,14 @@ export function CardTwo({ title, content, image }) {
           <Typography color="gray" className="mb-6 font-my-font">
             {content}
           </Typography>
-          <Button variant="outlined" size="sm">
+          <Button
+            variant="outlined"
+            size="sm"
+            onClick={() => {
+              router.push("/services#visa");
+              dispatch(reviewActions.setActiveTab("services"));
+            }}
+          >
             Know More
           </Button>
         </CardBody>

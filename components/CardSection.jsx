@@ -3,14 +3,10 @@ import CardTwo from "./UI/Card";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Typography } from "@material-tailwind/react";
-import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
-import { useState } from "react";
 export const CardSection = () => {
-  const [curr, setCurr] = useState(0);
 
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
