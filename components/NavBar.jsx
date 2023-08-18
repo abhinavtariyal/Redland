@@ -9,7 +9,6 @@ export function UnderlineTabs() {
   const activeTab1 = useSelector((state) => state.activeTab);
 //   const [activeTab, setActiveTab] = React.useState("html");
   const router = useRouter();
-  console.log("Navbar getting invoked");
   const data = [
     {
       label: "Home",

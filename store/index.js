@@ -33,16 +33,40 @@ const initialState = {
         "Before contacting Naveen Sir,I met 2 or 3 more agents who mislead me badly. Naveen sir tried for atleast 3 months to get my admission in desirable course and finally he did that anyhow and it was only Naveen Sir who went extra mile to make sure my admission",
     },
   ],
-  activeTab:'home'
+  serviceData: [
+    {
+      title: "STUDENT VISAS",
+      content:
+        "Studying abroad offers a unique way to experience life, whilst gaining access to world-class education system including top-ranking universities, practical vocational colleges and outstanding English language schools to support international students.",
+    },
+    {
+      title: "WORK VISAS",
+      content:
+        "Our company has a substantial record of having successfully completed the process associated with Employer Sponsored Visas and Temporary Skill Shortage (TSS) visa. Our services reach clients from all over the world.",
+    },
+    {
+      title: "TOURIST VISA/VISITOR VISA",
+      content:
+        "Visitor visa program may allow individuals (and families) to enter the country for short term stays for tourism or business visitor purposes. Broadly speaking, tourism purposes include holidays, seeing family and or friends whereas Business visitor include attending a conference, negotiation or an exploratory business visit.",
+    },
+    {
+      title:"FAMILY VISAS",
+      content:"Our company has a substantial record of having successfully completed the process associated with Employer Sponsored Visas and Temporary Skill Shortage (TSS) visa. Our services reach clients from all over the world."
+    },{
+      title:"GSM/SKILLED VISA",
+      content:"We help students to get their health cover policy in very short time. OSHC is mandatory for Australian student visa."
+    }
+  ],
+  activeTab: "home",
 };
 
 const reviewSlice = createSlice({
   name: "review",
   initialState,
   reducers: {
-    setActiveTab(state,action){
-    state.activeTab = action.payload;
-    }
+    setActiveTab(state, action) {
+      state.activeTab = action.payload;
+    },
   },
 });
 

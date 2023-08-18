@@ -38,7 +38,6 @@ export function CardTwo({ title, content, image }) {
             size="sm"
             onClick={() => {
               router.push("/services#visa");
-              dispatch(reviewActions.setActiveTab("services"));
             }}
           >
             Know More
