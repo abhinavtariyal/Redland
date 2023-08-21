@@ -5,7 +5,7 @@ const LeftCard = ({ image, title, content }) => {
   return (
     <div className="w-[1386px] h-[704px] rounded-xl shadow-md mx-auto mt-10 box-border relative">
       <img
-        className="w-[510px] h-[704px] float-left rounded-xl"
+        className="w-[510px] h-[704px] float-left rounded-xl object-cover"
         src={image}
       />
       <div className="h-[150px] text-red-600 text-[64px] font-bold capitalize mb-32 text-center">

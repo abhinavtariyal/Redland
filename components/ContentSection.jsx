@@ -19,7 +19,7 @@ export function ContentSectionOne() {
             We are team of highly professionals and have Intensive Experience in
             Education & Migration Industry. We have assisted numerous students
             in obtaining their academic goals in reputable universities and
-            colleges in Canada, Australia, and New Zealand.
+            colleges in USA, Canada, Australia, and New Zealand.
             <br />
             <br />
             With well-qualified and trained counsellors, we always strive to

@@ -1,8 +1,8 @@
 import React from "react";
 import VisaComponent from "@/components/VisaComponent";
-import { Typography } from "@material-tailwind/react";
 import RightCard from "@/components/RightCard";
 import LeftCard from "@/components/LeftCard";
+import HeadlineSection from "@/components/UI/HeadlineSection";
 
 const dataArray = [
   {
@@ -38,19 +38,7 @@ const dataArray = [
 const ServiceComponent = () => {
   return (
     <>
-      <div className="relative container mx-auto m-5">
-        <span className="w-[20%] h-[3px] bg-red-600 absolute top-10 left-56"></span>
-        <Typography
-          variant="h1"
-          className="text-center text-neutral-600 text-7xl text-opacity-90 font-semi-bold m-0"
-        >
-          Services
-        </Typography>
-        <Typography variant="lead" className="text-center font-my-font">
-          Unlocking Borders, Enabling Dreams: Your Visa Journey Made Effortless
-        </Typography>
-        <span className="w-[20%] h-[3px] bg-red-600 absolute top-10 right-56"></span>
-      </div>
+      <HeadlineSection title="Services" subtitle="Unlocking Borders, Enabling Dreams: Your Visa Journey Made Effortless"/>
       <VisaComponent />
       {dataArray.map((data, i) => (
         <div key={i}>

@@ -34,7 +34,7 @@ const VisaComponent = () => {
           process will go smoothly for you.
         </Typography>
       </div>
-      <div className="flex gap-8 flex-wrap justify-center text-justify">
+      <div className="flex gap-20 flex-wrap justify-center text-justify">
         {data.map((service) => (
           <SimpleCard
             key={service.title}
