@@ -57,7 +57,7 @@ const initialState = {
       content:"We help students to get their health cover policy in very short time. OSHC is mandatory for Australian student visa."
     }
   ],
-  activeTab: "home",
+  activeTab: "html",
 };
 
 const reviewSlice = createSlice({

@@ -10,7 +10,7 @@ import {
     return (
       <Card className="mt-6 w-[28rem] h-[20rem] relative">
         <CardBody>
-          <Typography variant="h5" color="blue-gray" className="mb-2">
+          <Typography variant="h5" className="mb-2 text-red-600 font-my-font">
             {title}
           </Typography>
           <Typography>
@@ -18,7 +18,7 @@ import {
           </Typography>
         </CardBody>
         <CardFooter className="pt-0 absolute bottom-0">
-          <Button className="bg-[#c20000]">Read More</Button>
+          <Button className="text-blue-gray border-red-600" variant="outlined">Read More</Button>
         </CardFooter>
       </Card>
     );

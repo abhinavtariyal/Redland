@@ -12,7 +12,6 @@ const HomePage = () => {
       <LogoSectionTwo />
       <CardSection />
       <CarouselDefault />
-      <FooterThree />
     </>
   );
 };
