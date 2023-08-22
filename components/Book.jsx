@@ -56,7 +56,7 @@ export function ContactSectionTwo({ loaderState, message }) {
             <Input
               size="lg"
               label="First Name"
-              name="first-name"
+              name="fName"
               required
               containerProps={{
                 className: "!min-w-full",
@@ -65,7 +65,7 @@ export function ContactSectionTwo({ loaderState, message }) {
             <Input
               size="lg"
               label="Last Name"
-              name="last-name"
+              name="lName"
               containerProps={{
                 className: "!min-w-full",
               }}
