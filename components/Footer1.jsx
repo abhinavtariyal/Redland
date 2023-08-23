@@ -3,7 +3,7 @@ import FooterButton from "./FooterButton";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
-const links = ["About Us", "Careers", "Press", "Blog", "Pricing"];
+const links = ["Home", "About Us", "Services", "Contact Us", "Enquire"];
 const currentYear = new Date().getFullYear();
 
 export function FooterThree() {
@@ -15,9 +15,6 @@ export function FooterThree() {
             <Typography variant="h5" color="white" className="mb-4">
               Redland Immigration
             </Typography>
-            {/* <Typography color="white" className="mb-12 font-normal">
-              The reward for getting on the stage is fame.
-            </Typography> */}
             <ul className="flex flex-wrap items-center justify-center md:justify-start">
               {links.map((link, idx) => (
                 <li key={link}>
@@ -50,7 +47,7 @@ export function FooterThree() {
               icon={<BsFacebook size={30} color="white" />}
             />
             <FooterButton
-              link="https://www.instagram.com/redlandimmigration/"
+              link="https://www.tiktok.com/@redlandimmigration?_t=8eM1ttoSRnO&_r=1"
               icon={
                 <FaTiktok
                   size={30}
@@ -60,7 +57,7 @@ export function FooterThree() {
               }
             />
             <FooterButton
-              link="https://www.tiktok.com/@redlandimmigration?_t=8eM1ttoSRnO&_r=1"
+              link="https://www.instagram.com/redlandimmigration/"
               icon={
                 <BsInstagram
                   size={30}

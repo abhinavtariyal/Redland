@@ -27,7 +27,7 @@ const HeroSec = () => {
         <div className="mt-28 flex flex-wrap justify-center gap-4 absolute z-[5]">
           <Button
             size="lg"
-            className="bg-[#c20000]"
+            className="bg-[#c20000] w-52 h-14"
             variant="filled"
             onClick={() => router.push("/contactPage")}
           >
@@ -43,7 +43,7 @@ export const LogoImage = ({ title, icon }) => {
   return (
     <div className="flex">
       {icon}
-      <Typography className="ml-2">{title}</Typography>
+      <Typography className="ml-2 text-[22px]">{title}</Typography>
     </div>
   );
 };

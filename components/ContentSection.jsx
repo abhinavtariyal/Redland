@@ -8,13 +8,13 @@ export function ContentSectionOne() {
           <Typography
             variant="h2"
             color="blue-gray"
-            className="mb-6 pr-5 font-my-font"
+            className="mb-6 pr-5 font-my-font text-6xl text-red-600"
           >
             Who Are We?
           </Typography>
           <Typography
             variant="lead"
-            className="mb-12 !text-gray-500 font-my-font text-justify"
+            className="mb-12 !text-gray-500 font-my-font text-justify text-[26px]"
           >
             We are team of highly professionals and have Intensive Experience in
             Education & Migration Industry. We have assisted numerous students
@@ -32,13 +32,13 @@ export function ContentSectionOne() {
           <Typography
             variant="h2"
             color="blue-gray"
-            className="mb-6 font-my-font"
+            className="mb-6 font-my-font text-6xl text-red-600"
           >
             Why Choose Us?
           </Typography>
           <Typography
             variant="lead"
-            className="mb-12 !text-gray-500 font-my-font m-0 text-justify"
+            className="mb-12 !text-gray-500 font-my-font m-0 text-justify text-[26px]"
           >
             Migrating to another country is a life changing decision. It’s
             important to get good results – At Redland Immigration you’ll find

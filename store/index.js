@@ -38,24 +38,32 @@ const initialState = {
       title: "STUDENT VISAS",
       content:
         "Studying abroad offers a unique way to experience life, whilst gaining access to world-class education system including top-ranking universities, practical vocational colleges and outstanding English language schools to support international students.",
+      link: "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
     },
     {
       title: "WORK VISAS",
       content:
         "Our company has a substantial record of having successfully completed the process associated with Employer Sponsored Visas and Temporary Skill Shortage (TSS) visa. Our services reach clients from all over the world.",
+      link: "https://immi.homeaffairs.gov.au/Visa-subsite/Pages/work/explore-visa-options-work.aspx",
     },
     {
       title: "TOURIST VISA/VISITOR VISA",
       content:
         "Visitor visa program may allow individuals (and families) to enter the country for short term stays for tourism or business visitor purposes. Broadly speaking, tourism purposes include holidays, seeing family and or friends whereas Business visitor include attending a conference, negotiation or an exploratory business visit.",
+      link: "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas",
     },
     {
-      title:"FAMILY VISAS",
-      content:"Our company has a substantial record of having successfully completed the process associated with Employer Sponsored Visas and Temporary Skill Shortage (TSS) visa. Our services reach clients from all over the world."
-    },{
-      title:"GSM/SKILLED VISA",
-      content:"We help students to get their health cover policy in very short time. OSHC is mandatory for Australian student visa."
-    }
+      title: "FAMILY VISAS",
+      content:
+        "Our company has a substantial record of having successfully completed the process associated with Employer Sponsored Visas and Temporary Skill Shortage (TSS) visa. Our services reach clients from all over the world.",
+      link: "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder/join-family",
+    },
+    {
+      title: "GSM/SKILLED VISA",
+      content:
+        "The General Skilled Migration Visa primarily benefits skilled professionals who have the intention of establishing permanent residence and employment in Australia. This visa option also extends to individuals who secure sponsorship from an Australian employer. Redland Immigration offers consultation, assessment, and visa assistance for the GSM category.",
+      link: "https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list",
+    },
   ],
   activeTab: "html",
 };

@@ -17,11 +17,8 @@ export function LogoSectionTwo() {
           <Typography variant="h6" className="mb-4 uppercase !text-gray-500">
             Why choose Us?
           </Typography>
-          <Typography variant="h2" color="blue-gray" className="mb-4">
-            Trusted by over 2000+ <br /> clients
-          </Typography>
-          <Typography className="mb-10 font-normal !text-gray-500">
-            We are proud members of MARN, MMA, QEAC and MIA and ICEF.
+          <Typography variant="h2" color="blue-gray" className="mb-4 font-my-font">
+          We are proud members of MARN, MMA, QEAC and MIA and ICEF.
           </Typography>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-6">

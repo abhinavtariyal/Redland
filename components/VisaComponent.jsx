@@ -7,9 +7,9 @@ const VisaComponent = () => {
   return (
     <div
       id="visa"
-      className="w-[90%] h-[80%] bg-white rounded-xl shadow mx-auto p-10 container"
+      className="w-[1386px] h-[2800px] bg-white rounded-xl shadow mx-auto p-10 mb-20"
     >
-      <Typography variant="h2" className="font-my-font text-red-600">
+      <Typography variant="h2" className="font-my-font text-red-600 text-6xl">
         VISA
       </Typography>
       <img
@@ -19,7 +19,7 @@ const VisaComponent = () => {
       <div className="w-[751px] h-[378px] mt-10">
         <Typography
           variant="lead"
-          className="mb-12 !text-gray-500 font-my-font text-justify"
+          className="mb-12 !text-gray-500 font-my-font text-justify text-[26px]"
         >
           Welcome to our dependable and expert visa services! We specialize in
           making the visa application procedure as simple as possible so you can
@@ -40,6 +40,7 @@ const VisaComponent = () => {
             key={service.title}
             title={service.title}
             content={service.content}
+            link={service.link}
           ></SimpleCard>
         ))}
       </div>
