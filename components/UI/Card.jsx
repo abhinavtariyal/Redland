@@ -9,7 +9,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useDispatch } from "react-redux";
 
-export function CardTwo({ title, content, image,link }) {
+export function CardTwo({ title, content, image, link }) {
   const router = useRouter();
   return (
     <section className="grid h-[40rem] place-items-center p-4">
@@ -32,16 +32,17 @@ export function CardTwo({ title, content, image,link }) {
           <Typography color="gray" className="mb-6 font-my-font">
             {content}
           </Typography>
-          <Link href= {link} target="_blank">
-          <Button
-            variant="outlined"
-            size="sm"
-            // onClick={() => {
-            //   router.push("/services#visa");
-            // }}
-          >
-            Know More
-          </Button>
+          <Link href={link} target="_blank">
+            <Button
+              variant="outlined"
+              size="sm"
+              color="red"
+              // onClick={() => {
+              //   router.push("/services#visa");
+              // }}
+            >
+              Know More
+            </Button>
           </Link>
         </CardBody>
       </Card>

@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <header className="bg-blue-gray-900 sticky top-0 z-10">
       <nav className="flex justify-between items-center w-[92%] mx-auto">
-        <div className="w-[140px] h-[84px]">
-          <img src="/download.png" className="object-cover w-full h-full" />
+        <div className="w-[300px] h-[84px]">
+          <img src="/Frame 8.png" className="object-cover w-full h-full" />
         </div>
         <div className="w-[30%]">
           <UnderlineTabs />

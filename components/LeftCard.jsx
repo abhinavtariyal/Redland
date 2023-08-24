@@ -9,7 +9,7 @@ const LeftCard = ({ image, title, content,link }) => {
         className="w-[510px] h-[704px] float-left rounded-xl object-cover"
         src={image}
       />
-      <div className="h-[100px] text-red-600 text-6xl font-bold capitalize mb-32 text-center">
+      <div className="h-[100px] text-red-600 text-6xl font-bold capitalize mb-32 text-center p-4">
         {title}
       </div>
       <div className="w-[750px] h-[216px] flex mx-auto">
@@ -22,7 +22,7 @@ const LeftCard = ({ image, title, content,link }) => {
           <Button
             variant="outlined"
             size="lg"
-            className="border-red-600 text-red-600"
+            color="red"
           >
             Know More
           </Button>

@@ -35,7 +35,7 @@ export const CardSection = () => {
     {
       title: "Overseas Student Health Cover",
       content:
-        "Interested in applying for an Australian Student Visa? Secure your compliance with visa condition 8501 by obtaining health insurance today. Safeguard yourself against unforeseen medical expenses during your time in Australia. Compare and discover quotes for the 500 Student Visa.",
+        "Interested in applying for an Australian Student Visa? Secure your compliance with visa condition 8501 by obtaining health insurance today. Safeguard yourself against unforeseen medical expenses during your time in Australia.  We Assist In Providing Best Health Covers For 500, 457, 482, 485, 489, And Other Visas.",
       image:
         "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
       link: "https://getmypolicy.online/au/",
@@ -60,7 +60,7 @@ export const CardSection = () => {
 
   return (
     <div className="bg-blue-gray-50 relative">
-      <Typography variant="h3" className="text-center font-my-font text-6xl mb-5">
+      <Typography variant="h3" className="text-center font-my-font text-6xl mb-5 p-5">
         Services
       </Typography>
       <div>

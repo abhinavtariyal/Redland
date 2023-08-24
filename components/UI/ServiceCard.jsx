@@ -21,7 +21,7 @@ export function SimpleCard({ title, content, link }) {
       </CardBody>
       <CardFooter className="pt-0 absolute bottom-0">
         <Link href={link} target="_blank"> 
-          <Button className="text-blue-gray border-red-600" variant="outlined">
+          <Button className="text-blue-gray" variant="outlined" color="red">
             Read More
           </Button>
         </Link>
