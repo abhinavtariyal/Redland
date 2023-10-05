@@ -8,7 +8,7 @@ const AboutPage = () => {
       <HeadlineSection title="About Us" subtitle="" />
       <ContentSectionOne />
       <DefaultTimeline />
-      <TeamSectionTwo />
+      {/* <TeamSectionTwo /> */}
     </>
   );
 };
