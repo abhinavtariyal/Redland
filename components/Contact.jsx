@@ -50,7 +50,7 @@ const options = [
   {
     icon: <PhoneIcon className="h-5 w-5" />,
     title: "Phone",
-    contact: "+61 (414) 105004",
+    contact: "+61 493700191",
   },
   {
     icon: <UserIcon className="h-5 w-5" />,

@@ -29,9 +29,9 @@ export function UnderlineTabs() {
   return (
     <Tabs value={activeTab1}>
       <TabsHeader
-        className="rounded-none bg-blue-gray-900 flex-1 gap-[4vw] p-4 justify-between"
+        className="rounded-none bg-transparent flex-1 gap-[4vw] p-4 justify-between"
         indicatorProps={{
-          className: "bg-transparent border-b-4 border-[#c20000] rounded-none",
+          className: "border-t-4 bg-transparent border-[#c20000] rounded-none shadow-none",
         }}
       >
         {data.map(({ label, value, link }) => (
@@ -43,7 +43,7 @@ export function UnderlineTabs() {
               dispatch(reviewActions.setActiveTab(value));
             }}
             className={
-              activeTab1 === value ? "font-bold text-white" : "text-white"
+              activeTab1 === value ? "font-bold text-[#2B2B2B]" : "text-black"
             }
           >
             {label}
