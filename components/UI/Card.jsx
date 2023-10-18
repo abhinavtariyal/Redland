@@ -7,7 +7,6 @@ import {
 } from "@material-tailwind/react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useDispatch } from "react-redux";
 
 export function CardTwo({ title, content, image, link }) {
   const router = useRouter();

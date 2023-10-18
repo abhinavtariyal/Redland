@@ -25,7 +25,7 @@ function StarIcon() {
  
 export function TestimonialCard(props) {
   return (
-    <Card color="transparent" shadow={true} className="w-full max-w-[26rem]">
+    <Card color="transparent" shadow={true} className="w-full max-w-[28rem] h-[20rem]">
       <CardHeader
         color="transparent"
         floated={false}
@@ -53,7 +53,7 @@ export function TestimonialCard(props) {
           </div>
         </div>
       </CardHeader>
-      <CardBody className="mb-6 p-0">
+      <CardBody className="mb-6 p-2 text-justify">
         <Typography>
           &quot;{props.personData.review}&quot;
         </Typography>

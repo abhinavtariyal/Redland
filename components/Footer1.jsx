@@ -3,7 +3,7 @@ import FooterButton from "./FooterButton";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
-const footerTab = ["Home", "About Us", "Services", "Contact Us", "Enquire"];
+// const footerTab = ["Home", "About Us", "Services", "Contact Us", "Enquire"];
 
 const footerData = [
   { name: "Home", link: "/home" },
