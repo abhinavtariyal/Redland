@@ -24,6 +24,8 @@ const responsive = {
   },
 };
 
+
+
 function CarouselDefault() {
   const data1 = useSelector((state) => state.data);
   return (
@@ -49,6 +51,7 @@ function CarouselDefault() {
           autoPlay={true}
           infinite={true}
           arrows={false}
+          showDots = {true}
         >
           {data1.map((person, i) => {
             return (
