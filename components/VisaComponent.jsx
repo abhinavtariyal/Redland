@@ -7,7 +7,7 @@ const VisaComponent = () => {
   return (
     <div
       id="visa"
-      className="w-[1386px] h-[2800px] bg-white rounded-xl shadow mx-auto p-10 mb-20"
+      className="w-[1386px] h-[2450px] bg-white rounded-xl shadow mx-auto p-10 mb-20"
     >
       <Typography variant="h2" className="font-my-font text-red-600 text-6xl">
         VISA
@@ -34,7 +34,7 @@ const VisaComponent = () => {
           process will go smoothly for you.
         </Typography>
       </div>
-      <div className="flex gap-20 flex-wrap justify-center text-justify">
+      <div className="flex gap-24 flex-wrap justify-center text-justify">
         {data.map((service) => (
           <SimpleCard
             key={service.title}
