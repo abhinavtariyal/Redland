@@ -8,7 +8,7 @@ const dataArray = [
   {
     title: "OSHC/OSVC",
     content:
-      "Interested in applying for an Australian Student Visa or Considering employment opportunities in Australia, whether on a temporary or permanent basis? Secure your compliance with visa condition 8501 by obtaining health insurance today. Safeguard yourself against unforeseen medical expenses during your time in Australia. We assist in providing best health covers for 500,457, 482, 485, 489, and other Visas.",
+      "Interested in applying for an Australian Student Visa or Considering employment opportunities in Australia, whether on a temporary or permanent basis? Secure your compliance with visa condition 8501 by obtaining health insurance today. Safeguard yourself against unforeseen medical expenses during your time in Australia. We assist in providing best health covers for 500, 457, 482, 485, 489, and other Visas.",
     image:
       "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
     link: "https://getmypolicy.online/au/",
