@@ -43,7 +43,7 @@ const VisaInfoComponent = ({title,about,title2,detail2,title3,detail3,title4,det
       <br></br>
       <br></br>
       <Typography variant="h6">
-        <i>*Source - Australian Government(Department of Health Affairs)</i>
+        <i>*Source - Australian Government(Department of Home Affairs)</i>
       </Typography>
     </div>
   )

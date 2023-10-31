@@ -17,13 +17,15 @@ const Header = () => {
           <UnderlineTabs />
         </div>
         <div>
-          <Button
-            onClick={() => router.push("/book")}
-            className="bg-[#c20000]"
-            size="md"
-          >
-            Enquire
-          </Button>
+          <Link href="/book">
+            <Button
+              // onClick={() => router.push("/book")}
+              className="bg-[#c20000]"
+              size="md"
+            >
+              Enquire
+            </Button>
+          </Link>
         </div>
       </nav>
     </header>
