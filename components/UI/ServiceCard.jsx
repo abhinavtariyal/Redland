@@ -20,7 +20,7 @@ export function SimpleCard({ title, content, link }) {
         <Typography className="text-[24px]">{content}</Typography>
       </CardBody>
       <CardFooter className="pt-0 absolute bottom-0">
-        <Link href={link} target="_blank"> 
+        <Link href={link} > 
           <Button className="text-blue-gray" variant="outlined" color="red">
             Read More
           </Button>
@@ -29,3 +29,4 @@ export function SimpleCard({ title, content, link }) {
     </Card>
   );
 }
+// target="_blank"

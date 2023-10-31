@@ -38,7 +38,7 @@ const initialState = {
       title: "STUDENT VISAS",
       content:
         "Studying abroad offers a unique way to experience life, whilst gaining access to world-class education system including top-ranking universities, practical vocational colleges and outstanding English language schools to support international students.",
-      link: "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+      link: "/services/studentVisa",
     },
     {
       title: "WORK VISAS",
@@ -50,7 +50,7 @@ const initialState = {
       title: "TOURIST VISA/VISITOR VISA",
       content:
         "Visitor visa program may allow individuals (and families) to enter the country for short term stays for tourism or business visitor purposes. Broadly speaking, tourism purposes include holidays, seeing family and or friends whereas Business visitor include attending a conference, negotiation or an exploratory business visit.",
-      link: "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas",
+      link: "/services/touristVisa",
     },
     {
       title: "FAMILY VISAS",
