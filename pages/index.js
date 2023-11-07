@@ -11,7 +11,7 @@ const Home = () => {
         />
         <meta
           name="keywords"
-          content="immigration consultancy, visa services, migration consultants, Redland Immigration, immigration experts, best immigration services"
+          content="immigration consultancy, visa services, migration consultants, Redland Immigration, immigration experts, best immigration services, Victoria, Australia"
         ></meta>
       </Head>
       <HomePage />
