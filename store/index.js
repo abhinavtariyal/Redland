@@ -53,16 +53,16 @@ const initialState = {
       link: "/services/touristVisa",
     },
     {
-      title: "FAMILY VISAS",
+      title: "PARENT VISA",
       content:
-        "Our company has a substantial record of having successfully completed the process associated with Employer Sponsored Visas and Temporary Skill Shortage (TSS) visa. Our services reach clients from all over the world.",
-      link: "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder/join-family",
+        "Our company has a substantial record of having successfully completed the process associated with Parent Visas. This permanent visa enables a parent of an established Australian citizen, Australian permanent resident, or eligible New Zealand citizen to relocate to Australia.",
+      link: "/services/parentsVisa",
     },
     {
       title: "GSM/SKILLED VISA",
       content:
         "The General Skilled Migration Visa primarily benefits skilled professionals who have the intention of establishing permanent residence and employment in Australia. This visa option also extends to individuals who secure sponsorship from an Australian employer. Redland Immigration offers consultation, assessment, and visa assistance for the GSM category.",
-      link: "https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list",
+      link: "/services/gsmVisa",
     },
   ],
   activeTab: "html",
