@@ -11,7 +11,7 @@ const dataArray = [
       "Interested in applying for an Australian Student Visa or Considering employment opportunities in Australia, whether on a temporary or permanent basis? Secure your compliance with visa condition 8501 by obtaining health insurance today. Safeguard yourself against unforeseen medical expenses during your time in Australia. We assist in providing best health covers for 500, 457, 482, 485, 489, and other Visas.",
     image:
       "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
-    link: "https://oshccompare.com/",
+    link: "/services/HealthInsurance",
   },
   {
     title: "Skills Assesment",
@@ -35,7 +35,7 @@ const dataArray = [
       "Our goal is to equip you with a smooth transition procedure that makes the challenging task of shifting directions across borders simpler. Our knowledgeable staff of advisors is dedicated to assisting you on this life-changing journey, ensuring a smooth transition from the time you first express interest in a new academic path until your successful enrollment in the program of your choice.",
     image:
       "https://images.unsplash.com/photo-1576872381149-7847515ce5d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1036&q=80",
-    link: "https://immi.homeaffairs.gov.au/change-in-situation/study-situation",
+    link: "services/courseChange",
   },
 ];
 
