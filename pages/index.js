@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>Redland Immigration Consultancy</title>
         <meta
           name="description"
           content="Your trusted immigration consultancy agency for seamless visa and migration services. We provide expert guidance for your immigration needs."
