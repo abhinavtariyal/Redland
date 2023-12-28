@@ -1,5 +1,5 @@
 import ContentSectionOne from "@/components/ContentSection";
-import TeamSectionTwo from "@/components/Team";
+import TeamSection4 from "@/components/TeamCard";
 import { DefaultTimeline } from "@/components/Timeline";
 import HeadlineSection from "@/components/UI/HeadlineSection";
 const AboutPage = () => {
@@ -8,7 +8,7 @@ const AboutPage = () => {
       <HeadlineSection title="About Us" subtitle="" />
       <ContentSectionOne />
       <DefaultTimeline />
-      {/* <TeamSectionTwo /> */}
+      <TeamSection4 />
     </>
   );
 };
