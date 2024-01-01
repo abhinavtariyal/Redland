@@ -1,10 +1,19 @@
-import { Button } from "@material-tailwind/react";
+import React from "react";
 import { useRouter } from "next/router";
 import { UnderlineTabs } from "./NavBar";
 import Link from "next/link";
-
+import {
+  Button,
+  Dialog,
+  DialogBody,
+} from "@material-tailwind/react";
+import BookComponent from "./BookComponent";
 const Header = () => {
   const router = useRouter();
+  const [open, setOpen] = React.useState(false);
+
+  const handleOpen = () => setOpen(!open);
+
   return (
     <header className="bg-[#FFF] sticky top-0 z-10 shadow-xl">
       <nav className="flex justify-between items-center w-[94%] mx-auto">
@@ -17,15 +26,19 @@ const Header = () => {
           <UnderlineTabs />
         </div>
         <div>
-          <Link href="/book">
-            <Button
-              // onClick={() => router.push("/book")}
-              className="bg-[#c20000]"
-              size="md"
-            >
-              Enquire
-            </Button>
-          </Link>
+          <Button
+            // onClick={() => router.push("/book")}
+            className="bg-[#c20000]"
+            size="md"
+            onClick={handleOpen}
+          >
+            Enquire
+          </Button>
+          <Dialog open={open} handler={handleOpen}>
+            <DialogBody>
+              <BookComponent handle = {handleOpen}/>
+            </DialogBody>
+          </Dialog>
         </div>
       </nav>
     </header>

@@ -2,8 +2,8 @@ import React, { useRef, useState } from "react";
 import { Typography, Input, Textarea, Button } from "@material-tailwind/react";
 import emailjs from "@emailjs/browser";
 import emailkeys from "@/emailkeys";
-
-export function ContactSectionTwo({ loaderState, message }) {
+import { MdOutlineCancel } from "react-icons/md";
+export function ContactSectionTwo({ loaderState, message, handle }) {
   const form = useRef();
   const [isLoading, setIsLoading] = useState(false);
   const handleSubmit = async (e) => {
@@ -22,9 +22,10 @@ export function ContactSectionTwo({ loaderState, message }) {
         title: "SUCCESS!!!",
         content: "Your message has been delivered successfully.",
       });
-
-      loaderState();
+    } else {
+      message({ title: "Error!!", conent: "Please try again later." });
     }
+    loaderState();
     // .then(
     //   (result) => {
 
@@ -35,7 +36,10 @@ export function ContactSectionTwo({ loaderState, message }) {
     // );
   };
   return (
-    <section className="grid h-screen items-center lg:grid-cols-2 place-items-center">
+    <section className="h-[800px] items-center place-items-center">
+      <button onClick={handle}>
+        <MdOutlineCancel className="ml-0 text-red-600" size={30} />
+      </button>
       <div className="mx-auto p-10 lg:max-w-xl">
         <Typography
           variant="h1"
@@ -87,15 +91,10 @@ export function ContactSectionTwo({ loaderState, message }) {
             type="submit"
             disabled={isLoading}
           >
-            send message
+            Send message
           </Button>
         </form>
       </div>
-      <img
-        src="/contact.jpeg"
-        alt="bg image"
-        className="hidden h-[50%] min-h-[92vh] w-full object-cover lg:block -mt-20"
-      />
     </section>
   );
 }
