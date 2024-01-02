@@ -1,4 +1,5 @@
 import { Typography, Button } from "@material-tailwind/react";
+import Image from "next/image";
 
 export function ContentSectionOne() {
   return (
@@ -45,8 +46,8 @@ export function ContentSectionOne() {
             Immigration Consultants who : Are ethical, open and honest with
             every client. Are qualified to interpret immigration laws and policy
             and advise you. Are experienced and competent to be able to
-            communicate with the relevant immigration department, embassy
-            and visa officers on your behalf. Are frank and honest about your
+            communicate with the relevant immigration department, embassy and
+            visa officers on your behalf. Are frank and honest about your
             prospects of success even before you retain our services. Are frank
             and honest about your prospects of success even before you retain
             our services.

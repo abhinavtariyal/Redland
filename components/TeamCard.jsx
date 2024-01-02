@@ -74,8 +74,7 @@ export function TeamSection4() {
             The Exective Team
           </Typography>
           <Typography
-            variant="lead"
-            className="mx-auto font-normal !text-gray-500 lg:w-8/12 font-my-font"
+            className="mx-auto font-normal !text-gray-500 lg:w-8/12 font-my-font text-[26px]"
           >
             Within our immigration consultancy team, a dynamic group of seasoned
             professionals collaborates seamlessly to navigate the complexities
