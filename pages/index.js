@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Redland Immigration Consultancy</title>
+        <title>Redland Immigration Consultants</title>
         <meta
           name="description"
           content="Your trusted immigration consultancy agency for seamless visa and migration services. We provide expert guidance for your immigration needs."
@@ -15,7 +15,7 @@ const Home = () => {
         />
         <meta
           name="keywords"
-          content="immigration consultancy, visa services, migration consultants, Redland Immigration, immigration experts, best immigration services, Victoria, Australia, Immigration, migration, Canada, Australia, UK, America work permit, job, permanent residency, refuge, refugee, skilled worker, lawyers, US, visa, visit visa, visitor, employment, migrate, skilled immigration, Portugal, Visa, Approval, best immigration services, best visa agent, best immigration agent, immigration agent, melbourne, best immigration agent melbourne, Redland Immigration Consultancy"
+          content="immigration consultancy, visa services, migration consultants, Redland Immigration, immigration experts, best immigration services, Victoria, Australia, Immigration, migration, Canada, Australia, UK, America work permit, job, permanent residency, refuge, refugee, skilled worker, lawyers, US, visa, visit visa, visitor, employment, migrate, skilled immigration, Portugal, Visa, Approval, best immigration services, best visa agent, best immigration agent, immigration agent, melbourne, best immigration agent melbourne, Redland Immigration Consultancy, best migration agent melrbourne, best immigration agent melbourne, migration services"
         ></meta>
         <meta content="Redland Immigration Consultancy - Best Immigration Services Provider" name="title"></meta>
         <meta property="og:title" content="Redland Immigration Consultancy - Best Immigration Services Provider"></meta>
