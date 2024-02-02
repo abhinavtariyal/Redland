@@ -6,7 +6,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
-function TeamCard({ img, name, title, desc }) {
+function TeamCard({ img, name, title, desc, marn }) {
   return (
     <Card
       color="transparent"
@@ -28,13 +28,19 @@ function TeamCard({ img, name, title, desc }) {
           {name}
         </Typography>
         <Typography
-          variant="small"
-          className="mb-3 mt-2 uppercase !text-gray-500 font-my-font"
+          variant="h5"
+          className="mb-3 mt-2 uppercase !text-gray-500 font-my-font text-lg"
         >
           {title}
         </Typography>
+        <Typography
+          variant="h6"
+          className="mb-3 mt-2 uppercase !text-gray-500 font-my-font"
+        >
+          {marn}
+        </Typography>
         <Typography className="mb-2 w-full xl:w-72 font-my-font text-xl text-justify">
-        &quot;{desc} &quot;
+          &quot;{desc} &quot;
         </Typography>
         {/* <div className="flex items-center">
           <IconButton variant="text" color="gray">
@@ -55,11 +61,11 @@ function TeamCard({ img, name, title, desc }) {
 const members = [
   {
     img: "/Naveen.jpeg",
+    marn: " MARN - 2217847",
     name: "Naveen Chaudhary",
-    title: "Director",
+    title: "Director, Registerd Migration Agent",
     desc: " Every visa stamped is a story of ambition realized, and every client served is a testament to our commitment to turning borders into gateways",
   },
-  
 ];
 
 export function TeamSection4() {
@@ -73,9 +79,7 @@ export function TeamSection4() {
           >
             The Exective Team
           </Typography>
-          <Typography
-            className="mx-auto font-normal !text-gray-500 lg:w-8/12 font-my-font text-[26px]"
-          >
+          <Typography className="mx-auto font-normal !text-gray-500 lg:w-8/12 font-my-font text-[26px]">
             Within our immigration consultancy team, a dynamic group of seasoned
             professionals collaborates seamlessly to navigate the complexities
             of global mobility. Our diverse team comprises immigration

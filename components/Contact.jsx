@@ -35,7 +35,7 @@ const options = [
     icon: <BookOpenIcon className="h-5 w-5" />,
     title: "Australia Address",
     contact:
-      "World Trade Centre, Level 10, Tower 4/611 Flinders St, Docklands VIC 3008",
+      "Level 24, 570 Bourke Street, Melbourne, VIC 3000",
   },
   {
     icon: <BiSolidBookOpen className="h-5 w-5" />,
@@ -52,17 +52,12 @@ const options = [
     title: "Phone",
     contact: "+61 493700191",
   },
-  {
-    icon: <UserIcon className="h-5 w-5" />,
-    title: "Contact",
-    contact: "Naveen Chaudhary",
-  },
 ];
 
 export function ContactSectionThree() {
   return (
     <section>
-      <div className="relative h-96 w-full">
+      <div className="relative h-96 w-full mb-16">
         <img
           className="absolute h-full w-full object-cover object-center"
           src="https://demos.creative-tim.com/material-kit-pro/assets/img/dg1.jpg"

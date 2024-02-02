@@ -1,6 +1,6 @@
 import { Typography, Button } from "@material-tailwind/react";
 import Image from "next/image";
-
+import ContactButton from "./UI/ContactButton";
 export function ContentSectionOne() {
   return (
     <section className="py-16 px-8 lg:py-28">
@@ -53,9 +53,13 @@ export function ContentSectionOne() {
             our services.
           </Typography>
 
-          <Button size="lg" variant="filled" className="bg-[#c20000] mt-10">
-            Read More
-          </Button>
+          <div className="mt-10">
+            <ContactButton
+              size="lg"
+              variant="filled"
+              className="bg-[#c20000]"
+            ></ContactButton>
+          </div>
         </div>
         <img
           src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2368&q=80"
