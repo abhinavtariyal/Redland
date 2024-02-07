@@ -15,7 +15,7 @@ export function LogoSectionTwo() {
       <div className="container mx-auto grid items-center gap-8 lg:grid-cols-2">
         <div className="text-center lg:text-left">
           <Typography variant="h2" color="blue-gray" className="mb-4 font-my-font text-3xl">
-          We are proud members of MARN, MMA, QEAC and MIA and ICEF.
+          We are proud members of MARN, MMA, QEAC, MIA and ICEF.
           </Typography>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-6">
