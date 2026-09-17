@@ -16,7 +16,7 @@ const dataArray = [
   {
     title: "Skills Assesment",
     content:
-      "If you’re planning to migrate to Australia or New Zealand, you may need a skills assessment to determine if you meet skilled migration visa requirements. We have an exceptional record in providing Positive Skills Assesment for our clients. We have a 100% success rate till now!!!",
+      "If you’re planning to migrate to Australia or New Zealand, you may need a skills assessment to determine if you meet skilled migration visa requirements. We have an exceptional record in providing Positive Skills Assesment for our clients. We have a high success rate till now!!!",
     image:
       "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2372&q=80",
     link: "/services/skillAss",
